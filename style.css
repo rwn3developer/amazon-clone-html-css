@@ -195,3 +195,46 @@ span{
 .box-content p {
     color: #007185;
 }
+
+.shop-section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.shop-section2-box{
+    width: 23%;
+    height: 350px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    
+}
+
+.shop-section2-box h2{
+    padding: 20px 20px 0px 20px;
+}
+
+.shop-section2-box-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.shop-section2-box-img{
+    margin-bottom: 15px;
+}
+
+.shop-section2-box-img p{
+    font-size: 0.9rem;
+    color: #0F1111;
+}
+
+.shop-section2-box > p{
+    font-size: 0.85rem;
+    color: #007185;
+    margin-left: 15px;
+}
